@@ -9,7 +9,7 @@ export default function Home() {
       <div>
         <div className="flex justify-center py-10">
           <img
-            className="w-[314px] h-[324px] rounded-full border-4 border-dark-30 p-2 hover:scale-105 duration-300"
+            className="w-[314px] h-[324px] rounded-full border-x-8 border-dark-30 p-2 hover:scale-105 duration-300"
             src="/assets/imagens/perfil.jpg"
             alt="Imagem de perfil"
           />

@@ -7,13 +7,8 @@ export const informations: Information[] = [
     titulo: "Sobre mim",
   },
   {
-    id: "dois",
+    id: "/about-me/personal-tastes",
     imagem: "/assets/imagens/pc.jpg",
-    titulo: "Meus gostos pessoais",
-  },
-  {
-    id: "tres",
-    imagem: "/assets/imagens/paisagem.jpg",
-    titulo: "Minhas motivações",
+    titulo: "Meus gostos pessoais e minhas motivações",
   },
 ];

@@ -20,62 +20,38 @@ export default function About() {
             <h1 className="text-xl font-medium">Jhuly Bastos</h1>
             <hr />
             <p className="py-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-              sapiente dolore ab. Autem aperiam necessitatibus velit optio?
-              Laborum natus ea doloribus dignissimos, esse repellendus neque!
-              Voluptatem, autem soluta? Quibusdam, aliquid. Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Ratione sapiente dolore ab.
-              Autem aperiam necessitatibus velit optio? Laborum natus ea
-              doloribus dignissimos, esse repellendus neque! Voluptatem, autem
-              soluta? Quibusdam, aliquid. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Ratione sapiente dolore ab. Autem aperiam
-              necessitatibus velit optio? Laborum natus ea doloribus
-              dignissimos, esse repellendus neque! Voluptatem, autem soluta?
-              Quibusdam, aliquid. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Ratione sapiente dolore ab. Autem aperiam
-              necessitatibus velit optio? Laborum natus ea doloribus
-              dignissimos, esse repellendus neque! Voluptatem, autem soluta?
-              Quibusdam, aliquid. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Ratione sapiente dolore ab. Autem aperiam
-              necessitatibus velit optio? Laborum natus ea doloribus
-              dignissimos, esse repellendus neque! Voluptatem, autem soluta?
-              Quibusdam, aliquid. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Ratione sapiente dolore ab. Autem aperiam
-              necessitatibus velit optio? Laborum natus ea doloribus
-              dignissimos, esse repellendus neque! Voluptatem, autem soluta?
-              Quibusdam, aliquid. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Ratione sapiente dolore ab. Autem aperiam
-              necessitatibus velit optio? Laborum natus ea doloribus
-              dignissimos, esse repellendus neque! Voluptatem, autem soluta?
-              Quibusdam, aliquid. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Ratione sapiente dolore ab. Autem aperiam
-              necessitatibus velit optio? Laborum natus ea doloribus
-              dignissimos, esse repellendus neque! Voluptatem, autem soluta?
-              Quibusdam, aliquid. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Ratione sapiente dolore ab. Autem aperiam
-              necessitatibus velit optio? Laborum natus ea doloribus
-              dignissimos, esse repellendus neque! Voluptatem, autem soluta?
-              Quibusdam, aliquid.
+              Olá, eu me chamo Jhuly. Sou formada em Design Gráfico e atualmente
+              estou estudando Análise e Desenvolvimento de Sistemas. Eu sempre
+              fui apaixonada por tecnologia desde criança, porém só comecei a
+              ter mais contato durante a pandemia, quando comecei a fazer alguns
+              cursos online e gratuitos. A área da tecnologia pela qual mais me
+              identifico é o desenvolvimento de software, principalmente o
+              front-end.
+              <br />
+              <br />
+              Esse é o meu foco: desenvolver minhas habilidades no front-end.
+              Atualmente, estou me aprofundando no React e no TypeScript. Ainda
+              tenho muito o que aprender e estou animada com isso. Mal posso
+              esperar para aprender cada dia mais.
+              <br />
+              <br />
+              Esse meu projeto é algo simples, mas feito com muito carinho. Tem
+              apenas seis meses que comecei a estudar essas tecnologias, e estou
+              feliz com tudo que aprendi até agora.
             </p>
             <br />
             <h1 className="text-xl font-medium">Formação acadêmica</h1>
             <hr />
             <p className="py-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              maiores explicabo accusantium quo cumque provident. Recusandae
-              laborum commodi quos incidunt earum at. Obcaecati repudiandae
-              ipsum reprehenderit ducimus modi adipisci sint! Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Enim maiores explicabo
-              accusantium quo cumque provident. Recusandae laborum commodi quos
-              incidunt earum at. Obcaecati repudiandae ipsum reprehenderit
-              ducimus modi adipisci sint! Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Enim maiores explicabo accusantium quo cumque
-              provident. Recusandae laborum commodi quos incidunt earum at.
-              Obcaecati repudiandae ipsum reprehenderit ducimus modi adipisci
-              sint! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Enim maiores explicabo accusantium quo cumque provident.
-              Recusandae laborum commodi quos incidunt earum at. Obcaecati
-              repudiandae ipsum reprehenderit ducimus modi adipisci sint!
+              <span className="font-semibold">
+                Ensino superior em Análise e Desenvolvimento de Sistemas
+              </span>{" "}
+              <br /> 02/2023 - 06/2025 - Uninter
+              <br /> <br />
+              <span className="font-semibold">
+                Ensino superior completo em Design gráfico
+              </span>{" "}
+              <br /> Concluído 03/2023 - Uninter
             </p>
           </div>
 

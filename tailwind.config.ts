@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        background: "url('/assets/imagens/lobby.png')",
+      },
       colors: {
         "dark-10": "#000000",
         "dark-20": "#ffffff",
@@ -15,6 +18,7 @@ const config: Config = {
         "dark-40": "#b0c4de",
         "dark-50": "#9ca3af",
         "dark-60": "#36c",
+        "dark-70": "#003692",
       },
     },
   },
