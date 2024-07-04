@@ -1,11 +1,15 @@
+"use client";
 import { Information } from "@/types/Information";
 import { ButtonAboutMe } from "../Button";
+import { useRouter } from "next/navigation";
+import { informations } from "@/data/informations";
 
 interface CardProps {
   information: Information;
 }
 
 export function Card({ information }: CardProps) {
+  const router = useRouter();
   return (
     <div className=" flex flex-col justify-center items-center">
       <p className="flex justify-center py-2 text-lg">{information.titulo}</p>
@@ -16,7 +20,9 @@ export function Card({ information }: CardProps) {
       />
 
       <div className=" py-5">
-        <ButtonAboutMe>Escolher</ButtonAboutMe>
+        <ButtonAboutMe onClick={() => router.push(`${information.id}`)}>
+          Escolher
+        </ButtonAboutMe>
       </div>
     </div>
   );
