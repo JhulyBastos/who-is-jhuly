@@ -1,22 +1,22 @@
 export default function About() {
   return (
     <div className="w-full h-full bg-dark-20 ">
-      <div className="text-dark-10 py-5 px-10">
-        <div className="flex gap-2">
-          <img
-            className="w-[50px] h-[50px]"
-            src="/assets/icons/globo.png"
-            alt="ícone de um globo"
-          />
-          <div className="">
-            <h1 className="font-semibold">Vikipédia</h1>
-            <p>A enciclopédia livre</p>
-          </div>
-        </div>
-      </div>
       <div>
-        <div className="text-dark-10 flex justify-center py-2 px-10 gap-10">
-          <div className="w-[1200px]">
+        <div className="text-dark-10 flex flex-col lg:flex-row justify-center py-2 px-10 gap-10 ">
+          <div className="w-full">
+            <div className="text-dark-10 py-5 mb-4">
+              <div className="flex gap-2">
+                <img
+                  className="w-[50px] h-[50px]"
+                  src="/assets/icons/globo.png"
+                  alt="ícone de um globo"
+                />
+                <div className="">
+                  <h1 className="font-semibold">Vikipédia</h1>
+                  <p>A enciclopédia livre</p>
+                </div>
+              </div>
+            </div>
             <h1 className="text-xl font-medium">Jhuly Bastos</h1>
             <hr />
             <p className="py-4">
@@ -56,9 +56,7 @@ export default function About() {
           </div>
 
           <div>
-            <div className="flex justify-center">
-              <h1>Jhuly Bastos</h1>
-            </div>
+            <div className="flex justify-center"></div>
             <div className="w-[420px] h-[700px] rounded-sm border border-dark-50">
               <div className="flex flex-col justify-center items-center">
                 <img

@@ -11,7 +11,7 @@ interface CardProps {
 export function Card({ information }: CardProps) {
   const router = useRouter();
   return (
-    <div className=" flex flex-col justify-center items-center">
+    <div className=" flex flex-col justify-center items-center text-center">
       <p className="flex justify-center py-2 text-lg">{information.titulo}</p>
       <img
         className=" w-full max-w-[300px] h-[436px] rounded-lg border-dark-30 border-4 p-4"

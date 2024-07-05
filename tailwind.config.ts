@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        background: "url('/assets/imagens/lobby.png')",
+        background: "url('/assets/imagens/lobby.jpg')",
       },
       colors: {
         "dark-10": "#000000",
